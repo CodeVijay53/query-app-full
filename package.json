@@ -2,7 +2,7 @@
   "scripts": {
     "frontinstall": "npm install --prefix frontend ",
     "backinstall": "npm install --prefix backend",
-    "full": "npm run frontinstall && npm run backinstall",
+
     "server": "nodemon backend/server.js --ignore client",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
